@@ -29,7 +29,11 @@
 ### 调用库：
 
 ```python
+# 调用
 from salgorithm import *
+# 还要加上
+import random
+import math
 ```
 
 ### 算法调用：
