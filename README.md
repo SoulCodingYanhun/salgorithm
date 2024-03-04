@@ -36,6 +36,7 @@ from salgorithm import *
 # 还要加上
 import random
 import math
+from collections import deque
 ```
 
 ### 算法调用：

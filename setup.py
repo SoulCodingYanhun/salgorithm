@@ -6,7 +6,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='salgorithm',
-    version='0.0.9',
+    version='0.1.1',
     description="让算法变得简单一点",
     long_description=long_description,
     long_description_content_type='text/markdown',  # Specify the content type as Markdown
