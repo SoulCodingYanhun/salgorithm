@@ -25,6 +25,8 @@
 17. 凯撒密码
 18. Vigenère密码
 19. RSA (Rivest–Shamir–Adleman)
+20. 广度优先搜索（BFS）
+21. 贪婪算法（Greedy Algorithm）
 
 ### 调用库：
 
@@ -83,7 +85,6 @@ print(f"二分搜索结果：{result}")
 
 
 # 深度优先搜索（Depth First Search，DFS）
-# 此算法简易暂时别用因为还没完全写好
 graph = {
 	'A': ['B', 'C'],
 	'B': ['D', 'E'],
@@ -262,6 +263,29 @@ print("Encrypted Message:", encrypted_message)
 	# 解密消息
 decrypted_message = decrypt(encrypted_message, private_key)
 print("Decrypted Message:", decrypted_message)
+
+# 广度优先搜索
+graph = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'F'],
+    'D': ['B'],
+    'E': ['B', 'F'],
+    'F': ['C', 'E']
+}
+print("BFS traversal starting from node A:")
+bfs(graph, 'A')
+
+# 贪婪算法（Greedy Algorithm）
+universe = set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+subsets = [
+    set([1, 2, 3, 4]),
+    set([4, 5, 6]),
+    set([6, 7, 8]),
+    set([8, 9, 10])
+]
+selected = greedy_set_cover(universe, subsets)
+print("Selected subsets:", selected)
 ```
 
 
