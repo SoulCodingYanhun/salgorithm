@@ -1,5 +1,7 @@
 from collections import deque
+from .time import TimedFunction
 
+@TimedFunction
 def bfs(graph, start):
     visited = set()  # 用于记录已访问的节点
     queue = deque([start])  # 使用队列来进行广度优先搜索
