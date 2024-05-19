@@ -1,3 +1,6 @@
+import .time from TimedFunction
+
+@TimedFunction
 def tabu_search(initial_solution, neighborhood_func, objective_func, tabu_list_size, max_iterations):
     current_solution = initial_solution
     best_solution = current_solution
