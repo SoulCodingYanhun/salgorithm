@@ -1,3 +1,6 @@
+from .time import TimedFunction
+
+@TimedFunction
 def bucket_sort(arr):
     # 确定桶的数量，这里假设为10
     num_buckets = 10
