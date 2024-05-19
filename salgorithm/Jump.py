@@ -1,5 +1,7 @@
 import math
+from .time import TimedFunction
 
+@TimedFunction
 def jump_search(arr, target):
     n = len(arr)
     step = int(math.sqrt(n))
