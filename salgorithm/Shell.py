@@ -1,3 +1,6 @@
+import .time from TimedFunction
+
+@TimedFunction
 def shell_sort(arr):
     n = len(arr)
     gap = n // 2
