@@ -1,3 +1,6 @@
+from .time import TimedFunction
+
+@TimedFunction
 def cocktail_sort(arr):
     n = len(arr)
     start = 0
