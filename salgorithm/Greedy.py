@@ -1,3 +1,6 @@
+from .time import TimedFunction
+
+@TimedFunction
 def greedy_set_cover(universe, subsets):
     selected_subsets = []  # 存储被选择的子集
 
