@@ -1,0 +1,40 @@
+salgorithms/：库的根目录。
+
+__init__.py：使 salgorithms 成为一个 Python 包。
+searching/：搜索算法模块。
+
+__init__.py：使 searching 成为一个子包。
+binary_search.py：二分查找算法的实现。
+linear_search.py：线性查找算法的实现。
+interpolation_search.py：插值查找算法的实现。
+jump_search.py：跳跃查找算法的实现。
+sorting/：排序算法模块。
+
+__init__.py：使 sorting 成为一个子包。
+bubble_sort.py：冒泡排序算法的实现。
+heap_sort.py：堆排序算法的实现。
+insertion_sort.py：插入排序算法的实现。
+merge_sort.py：归并排序算法的实现。
+quick_sort.py：快速排序算法的实现。
+selection_sort.py：选择排序算法的实现。
+bucket_sort.py：桶排序算法的实现。
+cocktail_sort.py：鸡尾酒排序算法的实现。
+radix_sort.py：基数排序算法的实现。
+shell_sort.py：希尔排序算法的实现。
+graph/：图算法模块。
+
+__init__.py：使 graph 成为一个子包。
+bfs.py：广度优先搜索（BFS）算法的实现。
+dfs.py：深度优先搜索（DFS）算法的实现。
+greedy_set_cover.py：贪心集合覆盖算法的实现。
+cipher/：加密算法模块。
+
+__init__.py：使 cipher 成为一个子包。
+caesar_cipher.py：凯撒密码的实现。
+vigenere_cipher.py：维吉尼亚密码的实现。
+transpose_cipher.py：置换密码的实现。
+rsa.py：RSA 加密算法的实现。
+utils/：实用工具模块。
+
+__init__.py：使 utils 成为一个子包。
+timer.py：计时器工具的实现。
