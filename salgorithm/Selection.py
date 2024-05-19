@@ -1,4 +1,4 @@
-import .time from TimedFunction
+import time from TimedFunction
 
 @TimedFunction
 def selection_sort(arr):

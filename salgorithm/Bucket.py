@@ -1,4 +1,4 @@
-from .time import TimedFunction
+from time import TimedFunction
 
 @TimedFunction
 def bucket_sort(arr):

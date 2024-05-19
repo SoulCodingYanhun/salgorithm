@@ -1,6 +1,6 @@
 
 import random
-import .time from TimedFunction
+import time from TimedFunction
 
 def is_prime(n):
     if n <= 1:

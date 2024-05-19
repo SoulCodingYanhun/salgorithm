@@ -1,5 +1,5 @@
 from collections import deque
-from .time import TimedFunction
+from time import TimedFunction
 
 @TimedFunction
 def bfs(graph, start):

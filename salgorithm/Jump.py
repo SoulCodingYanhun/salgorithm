@@ -1,5 +1,5 @@
 import math
-from .time import TimedFunction
+from time import TimedFunction
 
 @TimedFunction
 def jump_search(arr, target):
