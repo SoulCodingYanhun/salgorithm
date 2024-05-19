@@ -1,3 +1,5 @@
+from .time import TimedFunction
+
 @TimedFunction
 def heap_sort(arr):
     n = len(arr)
