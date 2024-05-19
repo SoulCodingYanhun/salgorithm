@@ -1,4 +1,6 @@
+
 import random
+import .time from TimedFunction
 
 def is_prime(n):
     if n <= 1:
@@ -44,11 +46,13 @@ def generate_keypair(p, q):
 
     return ((e, n), (d, n))
 
+@TimedFunction
 def encrypt(message, public_key):
     e, n = public_key
     encrypted_message = [pow(ord(char), e, n) for char in message]
     return encrypted_message
 
+@TimedFunction
 def decrypt(encrypted_message, private_key):
     d, n = private_key
     decrypted_message = [chr(pow(char, d, n)) for char in encrypted_message]
