@@ -1,3 +1,6 @@
+from .time import TimedFunction
+
+@TimedFunction
 def binary_search(arr, target):
     low = 0
     high = len(arr) - 1
