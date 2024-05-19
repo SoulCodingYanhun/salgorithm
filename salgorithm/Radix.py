@@ -1,3 +1,6 @@
+import .time from TimedFunction
+
+@TimedFunction
 def counting_sort(arr, exp):
     n = len(arr)
     output = [0] * n
