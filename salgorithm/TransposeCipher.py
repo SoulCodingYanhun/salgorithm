@@ -1,3 +1,6 @@
+import .time from TimedFunction
+
+@TimedFunction
 def transpose_cipher(text, key):
     num_columns = len(key)
     num_rows = (len(text) + num_columns - 1) // num_columns
